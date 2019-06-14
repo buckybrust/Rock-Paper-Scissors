@@ -1,0 +1,173 @@
+/* CSS Document */
+body{
+    background-color: black;
+    background-color: #040419;
+}
+#footerDiv {
+    width: 100%; 
+    margin: auto; 
+    background-color: rgb(170, 170, 170) !important; 
+    max-width: 500px; 
+    float: center;
+    display: block;
+}
+#footer{
+    color: blue;
+    text-align:center;
+}
+#name:hover {
+	text-decoration: underline !important;
+}
+
+.centerText {
+	text-align: center;
+}
+
+#startButton {
+	width: 22%;
+	text-align: center;
+	margin: auto;
+	background-color: #63C8BD;
+	border-radius: 3px;	
+	cursor: pointer;
+	border: 3px solid black;
+}
+#startButton:hover {
+	background-color: #80FCDF;
+
+}
+.noMargin{
+    margin: 0;
+}
+
+
+#gameArea{
+	background-color: lightgray; 
+	max-width: 738px; 
+	margin: auto;
+    border-radius: 10px;
+}
+#scoreArea{
+}
+.hoverFade {
+	transition: transform .2s;
+	Opacity: 0.92;
+	margin: 20px;
+	border: 3px solid black;
+	border-radius: 50px;
+	cursor: pointer;
+	width: 27%;
+}
+
+.hoverFade:hover {
+	transform: scale(1.05);
+	Opacity: 1;
+}
+
+.realHoverFade{
+    cursor: pointer;
+    transition: transform .2s;
+    opacity: 0.92;
+}
+.realHoverFade:hover {
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.picture {
+    margin: 20px;
+    margin-top: 5px;
+    border: 3px solid purple;
+    border-radius: 50px;
+    width: 27%;
+}
+
+.specialPicture{
+    width: 33.5% !important;
+    margin 20px;
+    margin-bottom: 20px !important;
+    
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.scoreDivs{
+    margin: 17px !important;
+    margin-top: 5px !important;
+    width: 27.5% !important;
+    display: inline-block !important;
+    color: purple;
+}
+#scoreArea{
+    max-width: 700px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-top: 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.scores{
+    color: #dadd1c;
+    color: purple;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.gamja{
+    font-family: 'Gamja Flower', cursive;
+    padding: 0px;
+}
+
+
+@media screen and (max-width: 1200px){
+	h1{
+		font-size: 27px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	.picture{
+		margin: 10px;
+        margin-top: 0px;
+		width: 29.5% !important;
+	}
+    .specialPicture{
+        margin-bottom: 15px !important;
+        width: 33% !important;
+    }
+	#gameArea{
+		max-width: 678px !important;
+	}
+    .scoreDivs{
+        margin: 5px !important;
+        width: 31% !important;
+    }
+}
+
+@media screen and (max-width:  769px){
+	h1{
+		font-size: 22px;
+	}
+	h2{
+		font-size: 17px;
+	}
+	.picture{
+		margin: 1px;
+		width: 31.2% !important;
+        border: 2px solid purple;
+	}
+    
+    .specialPicture{
+        margin-bottom: 10px !important;
+        width: 33.5% !important;
+    }
+	#gameArea{
+        height: auto;
+	}
+    .scoreDivs{
+        margin: 0px !important;
+        width: 31% !important;
+        border-radius: 10px;
+    }
+}
